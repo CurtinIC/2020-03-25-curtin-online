@@ -341,13 +341,13 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Schedule</h2>
 
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% endif %}
+{% include custom-schedule.html %}
+
+<hr/>
+
+<h2 id="syllabus">Syllabus</h2>
+
+{% include custom-syllabus.html %}
 
 <hr/>
 
